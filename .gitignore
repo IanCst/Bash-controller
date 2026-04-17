@@ -1,0 +1,29 @@
+__pycache__/
+*.pyc
+logs/*.csv
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.*
+# Secrets
+*.pem
+*.key
+.env
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# OS junk
+.DS_Store
+
+# Windows zone files
+*:Zone.Identifier
